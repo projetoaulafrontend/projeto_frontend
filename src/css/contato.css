@@ -1,0 +1,208 @@
+:root {
+
+    --green-dark: #133222;
+    --green-main: #1f6b45;
+    --green-soft: #eaf6ee;
+    --green-line: #d7e8db;
+    --text-main: #1f2937;
+    --text-soft: #6b7280;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+
+    margin: 0;
+    background: #f8faf8;
+    color: var(--text-main);
+
+}
+
+/* NAVBAR */
+
+.navbar {
+
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #eee;
+
+}
+
+.navbar-brand {
+
+    font-weight: 800;
+    color: var(--green-dark) !important;
+
+}
+
+.nav-link.active {
+
+    color: var(--green-main) !important;
+
+}
+
+/* HERO */
+
+.hero-product {
+
+    padding: 80px 0;
+    background: #f2f8f3;
+
+}
+
+.hero-title {
+
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.hero-text {
+
+    color: var(--text-soft);
+    margin-bottom: 20px;
+
+}
+
+.hero-badge {
+
+    background: var(--green-soft);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+
+.btn-eco-main {
+
+    background: var(--green-dark);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.btn-eco-main:hover {
+
+    background: #0f281b;
+
+}
+
+/* CARD */
+
+.hero-card {
+
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+
+}
+
+.mini-card i {
+
+    font-size: 1.4rem;
+    color: var(--green-main);
+
+}
+
+/* FORM */
+
+.contact-section {
+
+    padding: 60px 0;
+
+}
+
+.contact-form-box {
+
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+}
+
+.form-control,
+.form-select {
+
+    border-radius: 10px;
+
+}
+
+.submit-btn {
+
+    width: 100%;
+    background: var(--green-dark);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* INFO */
+
+.contact-info-box {
+
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+}
+
+.info-item {
+
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+
+}
+
+.info-item i {
+
+    background: var(--green-soft);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--green-main);
+
+}
+
+/* FOOTER */
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #eee;
+
+}
+
+.buttons-section{
+
+padding:60px 0;
+background:#f5f8f5;
+
+}
+
+.buttons-section h2{
+
+font-weight:700;
+color:var(--green-dark);
+
+}
+
+.buttons-section .btn{
+
+display:flex;
+align-items:center;
+gap:8px;
+
+}
