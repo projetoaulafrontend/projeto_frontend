@@ -1,0 +1,209 @@
+body{
+    background-color:#f2dcc9aa;
+    color: #260101;
+}
+
+.logo-flor {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Icone carrinho de compras */
+.icon{
+    fill: currentColor;
+    color: #260101;
+}
+
+.icon:hover{
+    color: #260101;
+}
+
+/* Navegador */
+.navbar-custom{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    background-color: #D9B596;
+    border-bottom: #ecd9de;
+}
+
+.navbar-custom .nav-link{
+    color: #260101;
+}
+
+.navbar-custom .nav-link:hover{
+    color: #A63F03;
+}
+
+.navbar-custom .navbar-brand{
+    color: #A63F03;
+}
+
+/* caixa de busca */
+.search-box{
+    display:flex;
+    align-items:center;
+}
+
+/* input */
+.search-input{
+    border-radius:20px 0 0 20px;
+    border:1px solid #e5cfd4;
+    padding:6px 12px;
+    font-size:14px;
+}
+
+.offcanvas{
+    background-color: #fff;
+}
+
+.offcanvas-title{
+    color: #260101;
+}
+
+/* Banner */
+.banner-hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+
+    opacity: 0;
+    transition: all 0.4s ease;
+
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.85); /* branco quase transparente */
+
+    color: #260101;
+}
+
+.banner-hover h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.banner-hover p{
+    font-size: 1rem;
+}
+
+.banner-hover .btn{
+    margin-top: 10px;
+}
+
+/* Carousel - Imagens promocionais */
+.carousel-custom {
+    margin-bottom: 4rem;
+    color: #260101; 
+}
+
+.carousel-item{
+    position: relative;
+    height: 600px;
+}
+
+.carousel-item:hover .banner-hover{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* Botões */
+.search-btn{
+    border-radius:0 20px 20px 0;
+    background-color: #F2DCC9;
+    color: #A63F03;
+    border:none;
+    padding:6px 12px;
+}
+
+.search-btn:hover{
+    background-color: #A63F03;
+    color: #F2DCC9;
+}
+
+.btn-primary{
+    background-color:#A63F03;
+    border-color:#A63F03;
+}
+
+.btn-primary:hover{
+    background-color:#a63f037d;
+    border-color:#a63f037d;
+}
+
+.bg-success{
+    background-color:#7aa37a !important;
+}
+
+
+.btn-outline-dark{
+    color:#A63F03;
+    border-color:#A63F03;
+}
+
+.btn-outline-dark:hover{
+    background-color:#A63F03;
+    border-color:#A63F03;
+    color:#ffffff;
+}
+
+.category-title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight:600;
+}
+
+/* linha ao lado */
+.category-title::after{
+    content:"";
+    flex:1;
+    height:2px;
+    background-color:#D9B596;
+}
+
+/* Cards-Produtos a venda */
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+h3 {
+    font-weight: 700;
+    color: #260101;
+}
+
+footer{
+    background-color: #D9B596;
+    color:#3d2c2e;
+}
+
+footer h5{
+    color:#3d2c2e;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 300px;
+    }
+}
