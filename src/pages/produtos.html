@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora & Folio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+   <link rel="stylesheet" href="../css/produtos.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<header>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="cart" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+            </symbol>
+        </svg>
+        <nav class="navbar-custom navbar navbar-expand-md">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas">
+
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Flora & Folio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <ul class="navbar-nav flex-grow-1 justify-content-between">
+                            <li class="nav-item">
+                                <a class="navbar-brand" href="#">
+                                    <img src="../assets/logo.png" class="logo-flor" alt="Flora & Folio">
+                                </a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/contatos.html">Contatos</a></li>
+                            <li class="nav-item search-box">
+                                <form class="d-flex" role="search">
+                                    <input 
+                                        class="form-control search-input" 
+                                        type="search" 
+                                        placeholder="Buscar produtos..." 
+                                        aria-label="Search">
+                                    <button class="btn search-btn" type="submit">
+                                        Pesquisar
+                                    </button>
+                                </form>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <svg class="icon" width="24" height="24">
+                                        <use xlink:href="#cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<section class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5">Produtos em Destaque</h2>
+                <p class="lead">Explore nossas categorias de maquiagens sustentáveis com embalagens biodegradáveis.</p>
+            </div>
+            <h3 class="category-title">Lábios</h3>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img1.png" class="card-img-top" alt="Batom Vegano">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Batom Vegano</h5>
+                                <p class="card-text">Cor intensa, fórmula natural e embalagem biodegradável.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img7.png" class="card-img-top" alt="Batom Orgânico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Gloss Vegano</h5>
+                                <p class="card-text">Hidratação intensa com ingredientes orgânicos e cor natural.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img6.png" class="card-img-top" alt="Blush Orgânico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruely Free</span>
+                                <h5 class="card-title">Hidratante Labial</h5>
+                                <p class="card-text">Pigmentação suave com composição consciente e natural.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img4.png" class="card-img-top" alt="Máscara Vegana">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Lápis de Boca</h5>
+                                <p class="card-text">Realce seu olhar com fórmula cruelty-free e sustentável.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="mt-5 mb-4"></h3>
+                <h3 class="category-title">Rosto</h3>
+                <div class="row g-4">   
+                    <!-- Quebra de cards -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img5.png" class="card-img-top" alt="Rímel Orgânico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruely Free</span>
+                                <h5 class="card-title">Pó Compacto Ecológico</h5>
+                                <p class="card-text">Acabamento natural com embalagem feita de material biodegradável.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img3.png" class="card-img-top" alt="Blush Orgânico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruely Free</span>
+                                <h5 class="card-title">Blush Orgânico</h5>
+                                <p class="card-text">Pigmentação suave com composição consciente e natural.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img2.png" class="card-img-top" alt="Base Natural">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Base Natural</h5>
+                                <p class="card-text">Cobertura leve com ingredientes sustentáveis e toque suave.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img8.png" class="card-img-top" alt="Rímel Orgânico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Paleta Sustentável</h5>
+                                <p class="card-text">Tons versáteis com ingredientes veganos e embalagem ecológica.</p>
+                                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="category-title">Olhos</h3>
+<div class="row g-4">
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img9.png" class="card-img-top" alt="Máscara de Cílios">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Vegano</span>
+                <h5 class="card-title">Máscara de Cílios</h5>
+                <p class="card-text">Volume e definição com fórmula natural e sustentável.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img10.png" class="card-img-top" alt="Delineador Natural">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Cruelty Free</span>
+                <h5 class="card-title">Delineador Natural</h5>
+                <p class="card-text">Precisão e longa duração com ingredientes ecológicos.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img11.png" class="card-img-top" alt="Sombra Vegana">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Orgânico</span>
+                <h5 class="card-title">Sombra Vegana</h5>
+                <p class="card-text">Cores vibrantes com fórmula livre de toxinas.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img12.png" class="card-img-top" alt="Lápis de Olho">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Vegano</span>
+                <h5 class="card-title">Lápis de Olho</h5>
+                <p class="card-text">Traço macio com composição natural e sustentável.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+    <h3 class="mt-5 mb-4"></h3>
+<h3 class="category-title">Corporal</h3>
+<div class="row g-4">
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img13.png" class="card-img-top" alt="Óleo de Banho">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Orgânico</span>
+                <h5 class="card-title">Óleo de Banho Relaxante</h5>
+                <p class="card-text">Hidratação profunda com óleos naturais e fragrância suave.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img14.png" class="card-img-top" alt="Sabonete Natural">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Vegano</span>
+                <h5 class="card-title">Sabonete Natural</h5>
+                <p class="card-text">Limpeza suave com ingredientes vegetais e ecológicos.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img15.png" class="card-img-top" alt="Esfoliante Corporal">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Cruelty Free</span>
+                <h5 class="card-title">Esfoliante Corporal</h5>
+                <p class="card-text">Remove impurezas e renova a pele com ativos naturais.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="../assets/img16.png" class="card-img-top" alt="Hidratante Corporal">
+            <div class="card-body text-center">
+                <span class="badge bg-success mb-2">Orgânico</span>
+                <h5 class="card-title">Hidratante Corporal</h5>
+                <p class="card-text">Nutrição intensa com fórmula sustentável e toque leve.</p>
+                <a href="#" class="btn btn-outline-dark">Ver produto</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+         </section>
+    </main>
+    <footer class="footer-custom container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="d-block mb-2" role="img" viewBox="0 0 24 24">
+                        <title>Produto</title>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path
+                            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+                        </path>
+                    </svg> <small class="d-block mb-3 text-body-secondary">&copy; 2025–2026</small> </div>
+                <div class="col-6 col-md">
+                    <h5>Atendimento</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="./src/pages/contatos.html">Fale Conosco</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Perguntas Frequentes</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Meus Pedidos</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Devoluções e Reembolsos</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Entrega</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Destaques</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="./src/pages/contatos.html">Pesquisa de Satisfação</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Novidades</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Guia de Compras</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Nossas Redes</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Instagram</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Twitter</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">TikTok</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Sobre</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="./src/pages/contatos.html">Time</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Localização</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Politicas de Privacidade</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Termos de Serviço</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
