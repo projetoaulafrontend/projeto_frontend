@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="../css/produtos.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
 
@@ -71,210 +69,276 @@
 
 <main>
     <section class="container py-5">
-        <div class="text-center mb-5">
-            <h2 class="display-5">Conheça nossos produtos!</h2>
-            <p class="lead">Explore nossas categorias de maquiagens sustentáveis com embalagens biodegradáveis.</p>
-        </div>
+        <div class="row">
+            <aside class="col-12 col-md-3 mb-4">
+                <div class="border rounded p-4 bg-light">
+                    <h4 class="mb-4">Filtros</h4>
 
-        <h3 class="category-title">Lábios</h3>
-        <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img1.png" class="card-img-top" alt="Batom Vegano">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Vegano</span>
-                        <h5 class="card-title">Batom Vegano</h5>
-                        <p class="card-text">Cor intensa, fórmula natural e embalagem biodegradável.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal1">Ver produto</button>
+                    <div class="mb-4">
+                        <h6 class="fw-bold">Preço</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco1">
+                            <label class="form-check-label" for="preco1">Até R$ 20</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco2">
+                            <label class="form-check-label" for="preco2">R$ 21 a R$ 30</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco3">
+                            <label class="form-check-label" for="preco3">R$ 31 a R$ 40</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco4">
+                            <label class="form-check-label" for="preco4">Acima de R$ 40</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="fw-bold">Tipo de produto</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tipo1">
+                            <label class="form-check-label" for="tipo1">Lábios</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tipo2">
+                            <label class="form-check-label" for="tipo2">Rosto</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tipo3">
+                            <label class="form-check-label" for="tipo3">Olhos</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tipo4">
+                            <label class="form-check-label" for="tipo4">Corporal</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-0">
+                        <h6 class="fw-bold">Marca</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca1">
+                            <label class="form-check-label" for="marca1">Vegano</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca2">
+                            <label class="form-check-label" for="marca2">Orgânico</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca3">
+                            <label class="form-check-label" for="marca3">Cruelty Free</label>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </aside>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img7.png" class="card-img-top" alt="Gloss Vegano">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Vegano</span>
-                        <h5 class="card-title">Gloss Vegano</h5>
-                        <p class="card-text">Hidratação intensa com ingredientes orgânicos e cor natural.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal2">Ver produto</button>
+            <div class="col-12 col-md-9">
+                <div class="text-center mb-5">
+                    <h2 class="display-5">Conheça nossos produtos!</h2>
+                    <p class="lead">Explore nossas categorias de maquiagens sustentáveis com embalagens biodegradáveis.</p>
+                </div>
+
+                <h3 class="category-title">Lábios</h3>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img1.png" class="card-img-top" alt="Batom Vegano">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Batom Vegano</h5>
+                                <p class="card-text">Cor intensa, fórmula natural e embalagem biodegradável.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal1">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img7.png" class="card-img-top" alt="Gloss Vegano">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Gloss Vegano</h5>
+                                <p class="card-text">Hidratação intensa com ingredientes orgânicos e cor natural.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal2">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img6.png" class="card-img-top" alt="Hidratante Labial">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruelty Free</span>
+                                <h5 class="card-title">Hidratante Labial</h5>
+                                <p class="card-text">Pigmentação suave com composição consciente e natural.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal3">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img4.png" class="card-img-top" alt="Lápis de Boca">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Lápis de Boca</h5>
+                                <p class="card-text">Realce seu olhar com fórmula cruelty-free e sustentável.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal4">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img6.png" class="card-img-top" alt="Hidratante Labial">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Cruelty Free</span>
-                        <h5 class="card-title">Hidratante Labial</h5>
-                        <p class="card-text">Pigmentação suave com composição consciente e natural.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal3">Ver produto</button>
+                <h3 class="category-title">Rosto</h3>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img5.png" class="card-img-top" alt="Pó Compacto Ecológico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruelty Free</span>
+                                <h5 class="card-title">Pó Compacto Ecológico</h5>
+                                <p class="card-text">Acabamento natural com embalagem feita de material biodegradável.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal5">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img3.png" class="card-img-top" alt="Blush Orgânico">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruelty Free</span>
+                                <h5 class="card-title">Blush Orgânico</h5>
+                                <p class="card-text">Pigmentação suave com composição consciente e natural.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal6">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img2.png" class="card-img-top" alt="Base Natural">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Base Natural</h5>
+                                <p class="card-text">Cobertura leve com ingredientes sustentáveis e toque suave.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal7">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img8.png" class="card-img-top" alt="Paleta Sustentável">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Paleta Sustentável</h5>
+                                <p class="card-text">Tons versáteis com ingredientes veganos e embalagem ecológica.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal8">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img4.png" class="card-img-top" alt="Lápis de Boca">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Orgânico</span>
-                        <h5 class="card-title">Lápis de Boca</h5>
-                        <p class="card-text">Realce seu olhar com fórmula cruelty-free e sustentável.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal4">Ver produto</button>
+                <h3 class="category-title">Olhos</h3>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img9.png" class="card-img-top" alt="Máscara de Cílios">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Máscara de Cílios</h5>
+                                <p class="card-text">Volume e definição com fórmula natural e sustentável.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal9">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img10.png" class="card-img-top" alt="Delineador Natural">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruelty Free</span>
+                                <h5 class="card-title">Delineador Natural</h5>
+                                <p class="card-text">Precisão e longa duração com ingredientes ecológicos.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal10">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img11.png" class="card-img-top" alt="Sombra Vegana">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Sombra Vegana</h5>
+                                <p class="card-text">Cores vibrantes com fórmula livre de toxinas.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal11">Ver produto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img12.png" class="card-img-top" alt="Lápis de Olho">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Lápis de Olho</h5>
+                                <p class="card-text">Traço macio com composição natural e sustentável.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal12">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <h3 class="category-title">Rosto</h3>
-        <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img5.png" class="card-img-top" alt="Pó Compacto Ecológico">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Cruelty Free</span>
-                        <h5 class="card-title">Pó Compacto Ecológico</h5>
-                        <p class="card-text">Acabamento natural com embalagem feita de material biodegradável.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal5">Ver produto</button>
+                <h3 class="category-title">Corporal</h3>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img13.png" class="card-img-top" alt="Óleo de Banho Relaxante">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Óleo de Banho Relaxante</h5>
+                                <p class="card-text">Hidratação profunda com óleos naturais e fragrância suave.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal13">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img3.png" class="card-img-top" alt="Blush Orgânico">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Cruelty Free</span>
-                        <h5 class="card-title">Blush Orgânico</h5>
-                        <p class="card-text">Pigmentação suave com composição consciente e natural.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal6">Ver produto</button>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img14.png" class="card-img-top" alt="Sabonete Natural">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Vegano</span>
+                                <h5 class="card-title">Sabonete Natural</h5>
+                                <p class="card-text">Limpeza suave com ingredientes vegetais e ecológicos.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal14">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img2.png" class="card-img-top" alt="Base Natural">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Vegano</span>
-                        <h5 class="card-title">Base Natural</h5>
-                        <p class="card-text">Cobertura leve com ingredientes sustentáveis e toque suave.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal7">Ver produto</button>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img15.png" class="card-img-top" alt="Esfoliante Corporal">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Cruelty Free</span>
+                                <h5 class="card-title">Esfoliante Corporal</h5>
+                                <p class="card-text">Remove impurezas e renova a pele com ativos naturais.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal15">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img8.png" class="card-img-top" alt="Paleta Sustentável">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Orgânico</span>
-                        <h5 class="card-title">Paleta Sustentável</h5>
-                        <p class="card-text">Tons versáteis com ingredientes veganos e embalagem ecológica.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal8">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h3 class="category-title">Olhos</h3>
-        <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img9.png" class="card-img-top" alt="Máscara de Cílios">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Vegano</span>
-                        <h5 class="card-title">Máscara de Cílios</h5>
-                        <p class="card-text">Volume e definição com fórmula natural e sustentável.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal9">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img10.png" class="card-img-top" alt="Delineador Natural">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Cruelty Free</span>
-                        <h5 class="card-title">Delineador Natural</h5>
-                        <p class="card-text">Precisão e longa duração com ingredientes ecológicos.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal10">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img11.png" class="card-img-top" alt="Sombra Vegana">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Orgânico</span>
-                        <h5 class="card-title">Sombra Vegana</h5>
-                        <p class="card-text">Cores vibrantes com fórmula livre de toxinas.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal11">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img12.png" class="card-img-top" alt="Lápis de Olho">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Vegano</span>
-                        <h5 class="card-title">Lápis de Olho</h5>
-                        <p class="card-text">Traço macio com composição natural e sustentável.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal12">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h3 class="category-title">Corporal</h3>
-        <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img13.png" class="card-img-top" alt="Óleo de Banho Relaxante">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Orgânico</span>
-                        <h5 class="card-title">Óleo de Banho Relaxante</h5>
-                        <p class="card-text">Hidratação profunda com óleos naturais e fragrância suave.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal13">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img14.png" class="card-img-top" alt="Sabonete Natural">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Vegano</span>
-                        <h5 class="card-title">Sabonete Natural</h5>
-                        <p class="card-text">Limpeza suave com ingredientes vegetais e ecológicos.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal14">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img15.png" class="card-img-top" alt="Esfoliante Corporal">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Cruelty Free</span>
-                        <h5 class="card-title">Esfoliante Corporal</h5>
-                        <p class="card-text">Remove impurezas e renova a pele com ativos naturais.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal15">Ver produto</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="../assets/img16.png" class="card-img-top" alt="Hidratante Corporal">
-                    <div class="card-body text-center">
-                        <span class="badge bg-success mb-2">Orgânico</span>
-                        <h5 class="card-title">Hidratante Corporal</h5>
-                        <p class="card-text">Nutrição intensa com fórmula sustentável e toque leve.</p>
-                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal16">Ver produto</button>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="../assets/img16.png" class="card-img-top" alt="Hidratante Corporal">
+                            <div class="card-body text-center">
+                                <span class="badge bg-success mb-2">Orgânico</span>
+                                <h5 class="card-title">Hidratante Corporal</h5>
+                                <p class="card-text">Nutrição intensa com fórmula sustentável e toque leve.</p>
+                                <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal16">Ver produto</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
