@@ -212,3 +212,47 @@ footer h5{
         height: 300px;
     }
 }
+  body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .modal-product-img {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .price {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #198754;
+        }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        .cart-item-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .cart-empty {
+            text-align: center;
+            color: #777;
+            padding: 20px 0;
+        }
+
+        .category-title {
+            margin: 40px 0 20px;
+            font-weight: 600;
+        }
+
+        .logo-flor {
+            max-height: 50px;
+        }
