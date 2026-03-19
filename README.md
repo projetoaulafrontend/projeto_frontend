@@ -50,6 +50,7 @@ Este projeto foi criado para praticar e demonstrar conhecimentos em:
 ## 📌 Destaques da aplicação
 
 🌐 Links do projeto
+
 Repositório
 
 🔗 https://github.com/projetoaulafrontend/projeto_frontend.git
