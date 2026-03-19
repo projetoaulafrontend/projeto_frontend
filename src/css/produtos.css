@@ -1,7 +1,4 @@
-.card-body{
-text-align: justify; 
-font-weight: bold;
-}
+
 
 body{
     background-color:#f2dcc9aa;
@@ -189,6 +186,18 @@ body{
 .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-text{
+    font-weight: 400;
+}
+
+.card-body{
+    text-align: justify;
 }
 
 h3 {
